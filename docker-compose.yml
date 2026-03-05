@@ -22,7 +22,7 @@ services:
     build: ./backend
     container_name: ramen_backend
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:54322/ramen_booking
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/ramen_booking
       SPRING_DATASOURCE_USERNAME: sapporo
       SPRING_DATASOURCE_PASSWORD: sapporo123
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
